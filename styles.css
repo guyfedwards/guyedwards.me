@@ -7,10 +7,17 @@
 }
 
 body {
+  padding: 20px;
+
   font-family: Helvetica, arial, sans-serif;
   color: #6f7c82;
 
   background-color: #f3f5f8;
+}
+
+a {
+  color: #2C416A;
+  text-decoration: none;
 }
 
 .container {
@@ -23,18 +30,23 @@ body {
   opacity: 0.5;
 }
 
-.welcome,
-.social-link {
+.welcome {
+  margin-top: 10px;
+
   color: #2C416A;
 }
 
-.welcome {
-  margin-top: 10px;
+.blurb {
+  line-height: 24px;
 }
 
 .social-link {
   margin-right: 10px;
   display: inline-block;
+}
 
-  text-decoration: none; 
+@media (max-width: 767px) {
+  .container {
+    margin-top: 40px;
+  }
 }
