@@ -9,8 +9,9 @@
 body {
   padding: 20px;
 
-  font-family: Helvetica, arial, sans-serif;
+  font-family: Menlo, Courier New, Courier, Mono, monospace;
   color: #727272;
+  font-size: 0.9rem;
 
   background-color: #fafafa;
 }
