@@ -10,14 +10,21 @@ body {
   padding: 20px;
 
   font-family: Helvetica, arial, sans-serif;
-  color: #6f7c82;
+  color: #727272;
 
-  background-color: #f3f5f8;
+  background-color: #fafafa;
 }
 
 a {
-  color: #2C416A;
+  color: #313131;
   text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #fff;
+  background-color: #FF9705;
 }
 
 .container {
@@ -33,7 +40,7 @@ a {
 .welcome {
   margin-top: 10px;
 
-  color: #2C416A;
+  color: #FF9705;
 }
 
 .blurb {
