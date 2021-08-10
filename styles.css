@@ -10,22 +10,22 @@ body {
   padding: 20px;
 
   font-family: Menlo, Courier New, Courier, Mono, monospace;
-  color: #727272;
+  color: #f9f6f6;
   font-size: 0.9rem;
 
-  background-color: #fafafa;
+  background-color: #0B1418;
 }
 
 a {
-  color: #313131;
+  color: #848484;
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #fff;
-  background-color: #FF9705;
+  color: #0B1418;
+  background-color: #ffc066;
 }
 
 .container {
@@ -41,7 +41,7 @@ a:focus {
 .welcome {
   margin-top: 10px;
 
-  color: #FF9705;
+  color: #f0a335;
 }
 
 .blurb {
